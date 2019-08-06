@@ -7,17 +7,17 @@ int main()
 	char choose;
 	do
 	{
-		cout<<"////////////////Menu////////////////\n"
-			<<" 1. Register\n"
-			<<" 2. Login\n"
-			<<" Q. Exit Program\n"
-			<<"____________________________\n"
-			<<"Enter Menu : ";
+		cout<<"////////////////Menu////////////////\n";
+			cout<<" 1. Register\n";
+			cout<<" 2. Login\n";
+			cout<<" Q. Exit Program\n";
+			cout<<"____________________________\n";
+			cout<<"Enter Menu : ";
 		cin >>choose;
-		if(choose == '1')
+		if(choose == '1');
 		{
-		cout<<"***********Register***********\n"
-			<<"Input Username : ";
+		cout<<"***********Register***********\n";
+		cout<<"Input Username : ";
 		cin >>User;
 		cout<<"Input Password : ";
 		cin >>Pass;
@@ -26,13 +26,13 @@ int main()
 		{
 			do
 			{
-				cout<<"********Login********\n"
-					<<"Input Username : ";
+				cout<<"********Login********\n";
+				cout<<"Input Username : ";
 				cin >>User_log;
 				cout<<"Input Password : ";
 				cin >>Pass_log;
 				if(!((User_log == User) && (Pass_log == Pass)))
-					cout<<"Username or Password incorrect Please try again!!!! :(\n";
+			cout<<"Username or Password incorrect Please try again!!!! :(\n";
 			}while(!((User_log == User) && (Pass_log == Pass)));
 			cout<<"Username and Password correct ^__^\n";
 		}
